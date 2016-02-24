@@ -136,6 +136,7 @@ public class TestsAnalizadorSintactico extends TestCase
                  {"resources/fuentes/felixem/main25.txt","","Error sintactico (3,14): encontrado 'a', esperaba numero entero ", -1 },
                  {"resources/fuentes/felixem/main26.txt","","Error sintactico: encontrado fin de fichero, esperaba { } 'double' 'int' identificador ", -1 },
                  {"resources/fuentes/felixem/main27.txt","","Error sintactico (4,5): encontrado '[', esperaba = ", -1 },
+                 {"resources/fuentes/felixem/main28.txt"," 1 2 4 5 7 8 11 5 12 14 16 9 17 19 22 26 23 26 23 26 24 20 22 26 24 21 10 3 7 8 11 6 12 13 13 14 16 9 18 7 9 17 19 22 26 23 26 24 20 22 26 24 21 8 11 6 12 14 15 12 14 16 10 10","", 0 },
                  {"resources/fuentes/felixem/funcion01.txt","","Error sintactico (1,5): encontrado '33', esperaba identificador ", -1 },
                  {"resources/fuentes/felixem/funcion02.txt","","Error sintactico (1,12): encontrado ';', esperaba ( ", -1 },
                  {"resources/fuentes/felixem/funcion03.txt","","Error sintactico (1,13): encontrado ';', esperaba ) ", -1 },
