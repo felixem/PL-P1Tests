@@ -185,7 +185,7 @@ public class TestsAnalizadorLexico extends TestCase
                  {"resources/fuentes/felixem/comentarios01.txt", Arrays.asList(new Token(11,5,"main",13), new Token(11,9,"(",0),
                 		 new Token(11,10,")",1), new Token(12,1,"{",7),  new Token(13,1,"}",8)), 
                 					 "","", 0 },
-                 {"resources/fuentes/pacocr/main01.txt", Arrays.asList(new Token(1,1,"main",13), new Token(2,3,"(",0), 
+                 {"resources/fuentes/pacocr/main01.txt", Arrays.asList(new Token(1,1,"ma",15), new Token(2,1,"in",15), new Token(2,3,"(",0), 
                                  new Token(2,4,")",1), new Token(3,1,"{",7), new Token(4,1,"}",8)),"","",0}
            });
     }
