@@ -146,6 +146,7 @@ public class TestsAnalizadorSintactico extends TestCase
                  {"resources/fuentes/felixem/funcion07.txt","","Error sintactico (1,5): encontrado 'main', esperaba identificador ", -1 },
                  {"resources/fuentes/felixem/funcion08.txt","","Error sintactico (1,13): encontrado 'int', esperaba ) ", -1 },
                  {"resources/fuentes/felixem/funcion09.txt","","Error sintactico (5,1): encontrado 'int', esperaba fin de fichero ", -1 },
+                 {"resources/fuentes/pacocr/main01.txt"," 1 3 7 10","",0},
            });
     }
 
@@ -207,3 +208,4 @@ public class TestsAnalizadorSintactico extends TestCase
 	}
 
 }
+
