@@ -91,6 +91,7 @@ public class TestsAnalizadorLexico extends TestCase
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {  
         	//Pruebas del profesor
+            
                  {"resources/fuentes/p01.txt", Arrays.asList(new Token(1,1,"main",13)), 
                 	 "","Error lexico (1,5): caracter '.' incorrecto", -1 },
                  {"resources/fuentes/p02.txt", Arrays.asList(new Token(1,1,"main",13), new Token(1,5,"(",0), new Token(1,6,")",1),
@@ -186,7 +187,9 @@ public class TestsAnalizadorLexico extends TestCase
                 		 new Token(11,10,")",1), new Token(12,1,"{",7),  new Token(13,1,"}",8)), 
                 					 "","", 0 },
                  {"resources/fuentes/pacocr/main01.txt", Arrays.asList(new Token(1,1,"ma",15), new Token(2,1,"in",15), new Token(2,3,"(",0), 
-                                 new Token(2,4,")",1), new Token(3,1,"{",7), new Token(4,1,"}",8)),"","",0}
+                                 new Token(2,4,")",1), new Token(3,1,"{",7), new Token(4,1,"}",8)),"","",0},
+                 
+                 {"resources/fuentes/pacocr/main02.txt",Arrays.asList(new Token(1,1, "main",13)),"","",0},
            });
     }
 
@@ -270,4 +273,3 @@ public class TestsAnalizadorLexico extends TestCase
 	}
 
 }
-
